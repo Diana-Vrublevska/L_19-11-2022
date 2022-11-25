@@ -265,7 +265,7 @@ body {
 }
 
 sup {
-  font-size: 25px; 
+  font-size: 25px;
   vertical-align: top;
   margin-left: 5px;
 }
@@ -277,39 +277,39 @@ sup {
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   text-align: left;
   list-style: none;
-  background-color: rgba(44,113,184,0.75);
+  background-color: rgba(44, 113, 184, 0.75);
 }
 
 .photo {
-  position: relative;  
+  position: relative;
   width: 269px;
   height: 180px;
-  background-color: rgba(255,255,255,0.65);
+  background-color: rgba(255, 255, 255, 0.65);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .photo::after {
-  content:"";
-  position:absolute;
-  top: 90px; 
-  left: -25px; 
-  width:320px; 
-  height:1px; 
-  background:rgba(255,255,255,0.5);
-  transform:rotate(-34deg);
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: -25px;
+  width: 320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(-34deg);
 }
 
 .photo::before {
-  content:"";
-  position:absolute;
-  top: 90px; 
-  left: -25px; 
-  width:320px; 
-  height:1px; 
-  background:rgba(255,255,255,0.5);
-  transform:rotate(34deg);
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: -25px;
+  width: 320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(34deg);
 }
 
 .photo button {
@@ -396,16 +396,16 @@ sup {
 }
 
 .details-btn:hover {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .add-btn {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border: none;
 }
 
 .add-btn:hover {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .add-btn img {
@@ -419,3 +419,18 @@ sup {
   gap: 30px;
 }
 
+.footer {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.footer h1 {
+  font-size: 21px;
+  color: #2c71b8;
+  font-weight: 300;
+  font-family: "Roboto";
+  align-self: center;
+}

@@ -281,7 +281,13 @@ sup {
 }
 
 .photo {
-  position: relative;
+  position: relative;  
+  width: 269px;
+  height: 180px;
+  background-color: rgba(255,255,255,0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo::after {
@@ -304,11 +310,6 @@ sup {
   height:1px; 
   background:rgba(255,255,255,0.5);
   transform:rotate(34deg);
-}
-
-.photo img {
-  padding: 46px 83px;
-  background-color: rgba(255,255,255,0.65);
 }
 
 .photo button {
@@ -405,5 +406,16 @@ sup {
 
 .add-btn:hover {
   background-color: rgba(255,255,255,0.5);
+}
+
+.add-btn img {
+  margin-left: 10px;
+}
+
+.items ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  gap: 30px;
 }
 

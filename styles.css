@@ -424,7 +424,7 @@ sup {
   height: 100px;
   display: flex;
   justify-content: center;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 
 .footer h1 {
@@ -433,4 +433,31 @@ sup {
   font-weight: 300;
   font-family: "Roboto";
   align-self: center;
+}
+
+.load-more {
+  margin-top: 60px;
+}
+
+.load-more-btn {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.load-more-btn:hover {
+  text-decoration: underline;
+}
+
+#hashLink {
+  display: none;
+}
+
+#hashLink:target {
+  display: block;
+}
+
+#hashLink a {
+  color: rgba(255, 255, 255, 0.75);
 }

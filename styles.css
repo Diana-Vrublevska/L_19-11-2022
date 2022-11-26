@@ -78,9 +78,10 @@ body {
   content: "‸";
   rotate: 180deg;
   font-size: 25px;
+  font-weight: 700;
   position: absolute;
-  top: 12px;
-  right: 15px;
+  top: 10px;
+  right: 13px;
   fill: #2c71b8;
 }
 

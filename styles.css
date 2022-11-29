@@ -80,7 +80,7 @@ body {
   font-size: 25px;
   font-weight: 700;
   position: absolute;
-  top: 10px;
+  top: 13px;
   right: 13px;
   fill: #2c71b8;
 }
@@ -105,7 +105,7 @@ body {
 
 .dropdown-menu a {
   text-align: left;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 30px;
   line-height: 30px;
   background-color: #2b71b7;
   color: white;
@@ -355,28 +355,6 @@ sup {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.photo::after {
-  content: "";
-  position: absolute;
-  top: 90px;
-  left: -25px;
-  width: 320px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.5);
-  transform: rotate(-34deg);
-}
-
-.photo::before {
-  content: "";
-  position: absolute;
-  top: 90px;
-  left: -25px;
-  width: 320px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.5);
-  transform: rotate(34deg);
 }
 
 .photo button {

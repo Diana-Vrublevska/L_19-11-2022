@@ -213,19 +213,6 @@ body {
   border-right: 1px solid white;
 }
 
-.filters-extension {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-right: 1px solid white;
-  margin-top: 153px;
-  width: 270px;
-}
-
-.filters-extension .filter {
-  margin-top: 5px;
-  position: relative;
-  top: -130px;
-}
-
 .filters {
   text-align: left;
   line-height: 2;
@@ -240,31 +227,23 @@ body {
   font-weight: 700;
 }
 
-.filter label {
-  cursor: pointer;
-}
-
-.filter input[type=checkbox]:checked {
-  background: aqua;
-}
-
-input[type=checkbox] {
+.filter label::before {
+  content: "";
+  display: inline-block;
   width: 10px;
   height: 10px;
-  margin-right: 5px;
   cursor: pointer;
+  border: 1px solid white;
+  background-color: #568DC6;
+  margin-right: 15px;
 }
 
-input[type=checkbox]:after {
-  content: "";
-  border-bottom: 5px solid #2c71b8;
-  border-top: 5px solid #2c71b8;
-  display: block;
+input[type="checkbox"]:checked + label::before {
+  background-color: white;
 }
 
-input[type=checkbox]:checked:after {
-  border-bottom: 5px solid whitesmoke;
-  border-top: 5px solid whitesmoke;
+input[type="checkbox"] {
+  display: none;
 }
 
 .options-btn {

@@ -122,7 +122,6 @@ body {
 
 .search {
   border: 1px solid #2c71b8;
-  border-bottom: none;
   width: 200px;
 }
 
@@ -227,6 +226,10 @@ body {
   font-weight: 700;
 }
 
+.filter label {
+  cursor: pointer;
+}
+
 .filter label::before {
   content: "";
   display: inline-block;
@@ -267,7 +270,6 @@ font-weight: 700;
   height: 50px;
   background-color: #2c71b8;
 border: 1px solid #ffffff;
-border-bottom: none;
 cursor: pointer;
 transition: all 300ms ease-in-out;
 }
@@ -339,8 +341,7 @@ sup {
 .item {
   width: 270px;
   height: 653px;
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
   text-align: left;
   list-style: none;
   background-color: rgba(44, 113, 184, 0.75);
@@ -459,7 +460,6 @@ sup {
 .details-btn {
   background-color: #2c71b8;
   border: 1px solid white;
-  border-bottom: none;
   transition: all 300ms ease-in-out;
 }
 
@@ -484,7 +484,6 @@ sup {
 .items ul {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   gap: 30px;
 }
 
